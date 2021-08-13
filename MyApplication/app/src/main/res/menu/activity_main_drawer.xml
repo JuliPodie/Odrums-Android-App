@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/profil"
+            android:title="@string/Home"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/lupe"
+            android:title="@string/Search" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/note"
+            android:title="@string/Notes" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/Settings" />
+        <item
+            android:id="@+id/nav_empty"
+            android:title=""
+            android:enabled="false"
+            />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@mipmap/profil"
+            android:title="@string/Profil" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@mipmap/shop"
+            android:title="@string/Shop" />
+        <item
+            android:id="@+id/nav_streak"
+            android:icon="@mipmap/flame"
+            android:title="@string/Streak" />
+        <item
+            android:id="@+id/nav_jungset"
+            android:icon="@mipmap/sticks"
+            android:title="@string/Junkset" />
+    </group>
+</menu>
